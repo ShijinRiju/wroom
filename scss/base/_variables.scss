@@ -1,0 +1,43 @@
+// paths 
+$image_path : "../images";
+$font_path  :  "../fonts";
+
+$color-blue : #089DF5;
+$color-green: #2CCB4D;
+$color-orange: #FFC162;
+$color-light-green: #30b576;
+$color-red-dark: #FF2E49;
+$color-red: #D56D5C;
+$color-cyan: #6AB3AF;
+$color-blue-light: #898EA2; 
+$color-violet: #9836DD;
+$color-black: #000000;
+$color-dark: #333333;
+$color-grey: #E4E5EC;
+$color-grey-v2: #EDEEF4;
+$color-white: #fff;
+$color-light: #F9FAFD;
+$color-light-v2: #6B6F81;
+
+$border-color: $color-grey;
+
+$screen-xs : 480px;
+$screen-sm : 641px;
+$screen-tab : 769px;
+$screen-md : 992px;
+$screen-lg : 1024px;
+$screen-xl : 1200px;
+$screen-xxl : 1280px;
+$screen-xlg : 1440px;
+$screen-xxlg : 1640px;
+
+$grid-gutter-width-base : 30px;
+
+$grid-breakpoints: (
+  xs: 0,
+  sm: $screen-sm,
+  md: $screen-md,
+  lg: $screen-lg,
+  xl: $screen-xl,
+  xxl: $screen-xxl,
+);

@@ -1,0 +1,28 @@
+.inner-section-banner{
+    height: 400px;
+    background-size: cover!important;
+    .container{
+        height: 100%;
+        .row{
+            height: 100%;
+            align-items: center;
+            text-align: center;
+        }
+    }
+    label{
+        font-weight: 700;
+        font-size: 2.6rem;
+    }
+    .breadcrumb{
+        justify-content: center;
+        li{
+            a{
+                color: #000;
+                text-decoration: none;
+            }
+        }
+    }
+}
+.font-300{
+    font-weight: 300;
+}

@@ -1,0 +1,207 @@
+.btn {
+    padding: 10px 40px;
+    font-size: 1.125rem;
+    display: inline-flex;
+    align-items: center;
+    transition: all 0.4s ease;
+    border-radius:12px; 
+    font-weight: 300;
+    &--primary
+    {
+        background: #121212;
+        border: 1px solid #121212;
+        color: #fff;
+    }
+    &--secondary{
+        background: #4A8B98;
+        color: #fff!important;
+        
+        img{
+            margin-left: 0.4rem;
+            filter: invert(1);
+        }
+    }
+    &--third{
+        border: 1px solid #121212;
+        background: 0 0;
+        color: #121212;
+    }
+    &--fourth{
+        border: 1px solid #fff;
+        background: 0 0;
+        color: #fff;
+    }
+    img{
+        margin-left: 0.4rem;
+    }
+}
+.btn--green, .btn--primary:hover{
+    background: #0b3e7e;
+    color: #fff;
+}
+.btn--green, .btn--secondary:hover{
+    background: #0b3e7e;
+    color: #fff;
+}
+.btn--green, .btn--blue--border:hover{
+    background: #3B6BA6;
+    color: #fff;
+}
+.btn--green--border:hover{
+    background: #59ac2c;
+    color: #fff;
+}
+.red__link{
+    color: #FF2E49;
+}
+.green__link{
+    font-size: 14px;
+    color: #69bf3a!important;
+}
+.blue__link{
+    color: #3b6ba6;  
+}
+
+@font-face {
+    font-family: "Metropolis";
+    src: url("../fonts/Metropolis-Bold.woff") format("woff");
+    font-weight: bold;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: "Metropolis";
+    src: url("../fonts/Metropolis-ExtraBoldItalic.woff") format("woff");
+    font-weight: bold;
+    font-style: italic;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: "Metropolis";
+    src: url("../fonts/Metropolis-ExtraLight.woff") format("woff");
+    font-weight: 200;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: "Metropolis";
+    src: url("../fonts/Metropolis-ExtraBold.woff") format("woff");
+    font-weight: bold;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: "Metropolis";
+    src: url("../fonts/Metropolis-BoldItalic.woff") format("woff");
+    font-weight: bold;
+    font-style: italic;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: "Metropolis";
+    src: url("../fonts/Metropolis-BlackItalic.woff") format("woff");
+    font-weight: 900;
+    font-style: italic;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: "Metropolis";
+    src: url("../fonts/Metropolis-Light.woff") format("woff");
+    font-weight: 300;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: "Metropolis";
+    src: url("../fonts/Metropolis-ExtraLightItalic.woff") format("woff");
+    font-weight: 200;
+    font-style: italic;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: "Metropolis";
+    src: url("../fonts/Metropolis-LightItalic.woff") format("woff");
+    font-weight: 300;
+    font-style: italic;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: "Metropolis";
+    src: url("../fonts/Metropolis-Medium.woff") format("woff");
+    font-weight: 500;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: "Metropolis";
+    src: url("../fonts/Metropolis-MediumItalic.woff") format("woff");
+    font-weight: 500;
+    font-style: italic;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: "Metropolis";
+    src: url("../fonts/Metropolis-Regular.woff") format("woff");
+    font-weight: normal;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: "Metropolis";
+    src: url("../fonts/Metropolis-RegularItalic.woff") format("woff");
+    font-weight: normal;
+    font-style: italic;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: "Metropolis";
+    src: url("../fonts/Metropolis-Thin.woff") format("woff");
+    font-weight: 100;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: "Metropolis";
+    src: url("../fonts/Metropolis-SemiBold.woff") format("woff");
+    font-weight: 600;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: "Metropolis";
+    src: url("../fonts/Metropolis-ThinItalic.woff") format("woff");
+    font-weight: 100;
+    font-style: italic;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: "Metropolis";
+    src: url("../fonts/Metropolis-SemiBoldItalic.woff") format("woff");
+    font-weight: 600;
+    font-style: italic;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: "Metropolis";
+    src: url("../fonts/Metropolis-Black.woff") format("woff");
+    font-weight: 900;
+    font-style: normal;
+    font-display: swap;
+}

@@ -1,0 +1,20 @@
+// main styles
+
+@import "home";
+
+
+// vendors
+@import "vendors/fontAwesome/fontawesome.scss";
+@import "vendors/slick.scss";
+@import "vendors/slick-theme.scss";
+
+
+// mixins
+@import "base/mixins.scss";
+@import "base/variables.scss";
+
+// components
+@import "components/buttons.scss";
+
+// pages
+@import "pages/about.scss";
